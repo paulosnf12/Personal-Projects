@@ -1,0 +1,43 @@
+#ifndef EEZ_LVGL_UI_IMAGES_H
+#define EEZ_LVGL_UI_IMAGES_H
+
+#include "../lvgl/lvgl.h"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+extern const lv_img_dsc_t img_frame_16_delay_0_1s_ezgif_com_gif_to_apng_converter;
+extern const lv_img_dsc_t img_frame_15_delay_0_1s_ezgif_com_gif_to_apng_converter;
+extern const lv_img_dsc_t img_frame_14_delay_0_1s_ezgif_com_gif_to_apng_converter;
+extern const lv_img_dsc_t img_frame_13_delay_0_1s_ezgif_com_gif_to_apng_converter;
+extern const lv_img_dsc_t img_frame_12_delay_0_1s_ezgif_com_gif_to_apng_converter;
+extern const lv_img_dsc_t img_frame_11_delay_0_1s_ezgif_com_gif_to_apng_converter;
+extern const lv_img_dsc_t img_frame_10_delay_0_1s_ezgif_com_gif_to_apng_converter;
+extern const lv_img_dsc_t img_frame_09_delay_0_1s_ezgif_com_gif_to_apng_converter;
+extern const lv_img_dsc_t img_frame_08_delay_0_1s_ezgif_com_gif_to_apng_converter;
+extern const lv_img_dsc_t img_frame_07_delay_0_1s_ezgif_com_gif_to_apng_converter;
+extern const lv_img_dsc_t img_frame_06_delay_0_1s_ezgif_com_gif_to_apng_converter;
+extern const lv_img_dsc_t img_frame_05_delay_0_1s_ezgif_com_gif_to_apng_converter;
+extern const lv_img_dsc_t img_frame_04_delay_0_1s_ezgif_com_gif_to_apng_converter;
+extern const lv_img_dsc_t img_frame_03_delay_0_1s_ezgif_com_gif_to_apng_converter;
+extern const lv_img_dsc_t img_frame_02_delay_0_1s_ezgif_com_gif_to_apng_converter;
+extern const lv_img_dsc_t img_frame_01_delay_0_1s_ezgif_com_gif_to_apng_converter;
+extern const lv_img_dsc_t img_frame_00_delay_0_1s_ezgif_com_gif_to_apng_converter;
+
+#ifndef EXT_IMG_DESC_T
+#define EXT_IMG_DESC_T
+typedef struct _ext_img_desc_t {
+    const char *name;
+    const lv_img_dsc_t *img_dsc;
+} ext_img_desc_t;
+#endif
+
+extern const ext_img_desc_t images[17];
+
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /*EEZ_LVGL_UI_IMAGES_H*/
